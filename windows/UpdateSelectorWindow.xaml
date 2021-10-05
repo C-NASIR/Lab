@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab2.windows.UpdateSelectorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2.windows"
+        mc:Ignorable="d"
+        Title="UpdateSelectorWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Update Entry" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="298,10,298,349" Width="196"/>
+        <TextBox Name="IdTBX" HorizontalAlignment="Left" FontSize="20" Height="34" Margin="190,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="412"/>
+        <Label Content="Enter the id of the entity you want to update" FontSize="20" HorizontalAlignment="Left" Margin="190,103,0,0" VerticalAlignment="Top" Width="412"/>
+        <Button Name="NextBTN" Content="Next" FontSize="20" HorizontalAlignment="Left" Margin="190,227,0,0" VerticalAlignment="Top" Width="412" Height="59" Click="UpdateBTN_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab2.windows.DeleteEntryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2.windows"
+        mc:Ignorable="d"
+        Title="DeleteEntryWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Delete Entry" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="299,10,300,348.5" Width="196"/>
+        <TextBox Name="IdTBX" HorizontalAlignment="Left" FontSize="20" Height="34" Margin="199,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="394"/>
+        <Label Content="Enter the id of the entity you want to delete" FontSize="20" HorizontalAlignment="Left" Margin="199,103,0,0" VerticalAlignment="Top" Width="412"/>
+        <Button Name="DeleteBTN" Content="Delete" FontSize="20" HorizontalAlignment="Left" Margin="199,227,0,0" VerticalAlignment="Top" Width="394" Height="59" Click="DeleteBTN_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lab2.windows.ListEntriesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2.windows"
+        mc:Ignorable="d"
+        Title="ListEntriesWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="List of Entries" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="306,0,283,358.5" Width="206"/>
+        <ListBox Name="EntriesLBX" FontSize="20" HorizontalAlignment="Left" Height="276" Margin="88,47,0,0" VerticalAlignment="Top" Width="596"/>
+        <Button Name="Exit" Content="EXIT" HorizontalAlignment="Left" FontSize="20" Margin="306,346,0,0" VerticalAlignment="Top" Width="150" Height="45" Click="Exit_Click"/>
+
+    </Grid>
+</Window>

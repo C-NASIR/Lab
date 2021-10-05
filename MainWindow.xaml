@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Menu" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="349,1,336,-1" Width="107"/>
+        <Button Name="List_ItemsBTN" Content="List Items" FontSize="25" HorizontalAlignment="Left" Margin="244,63,0,0" VerticalAlignment="Top" Width="300" Height="50" Click="List_ItemsBTN_Click"/>
+        <Button Name="Add_ItemBTN" Content="Add Item" FontSize="25" HorizontalAlignment="Left" Margin="244,129,0,0" VerticalAlignment="Top"  Width="300" Height="50" Click="Add_ItemBTN_Click"/>
+        <Button Name="Update_ItemBTN" Content="Update Item" FontSize="25" HorizontalAlignment="Left" Margin="244,199,0,0" VerticalAlignment="Top" Grid.Column="0" Width="300" Height="50" Click="Update_ItemBTN_Click"/>
+        <Button Name="Delete_ItemBTN" Content="Delete Item" FontSize="25" HorizontalAlignment="Left" Margin="244,283,0,0" VerticalAlignment="Top"  Width="300" Height="50" Click="Delete_ItemBTN_Click"/>
+        <Button x:Name="Exit" Background="Red" Foreground="White" FontWeight="Bold" Content="EXIT" FontSize="25" HorizontalAlignment="Left" Margin="571,338,0,0" VerticalAlignment="Top"  Width="187" Height="50" Click="Exit_Click"/>
+
+
+    </Grid>
+</Window>

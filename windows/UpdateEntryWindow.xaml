@@ -1,0 +1,24 @@
+﻿<Window x:Class="Lab2.windows.UpdateEntryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2.windows"
+        mc:Ignorable="d"
+        Title="UpdateEntryWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Update Entry" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="308,10,277,348" Width="207"/>
+        <Label Content="Change Clue" FontSize="20" HorizontalAlignment="Left" Margin="27,80,0,0" VerticalAlignment="Top" Height="41" Width="270"/>
+        <TextBox Name="ClueTBX" FontSize="20" HorizontalAlignment="Left" Height="45" Margin="27,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="734"/>
+        <Label Content="Change Answer" FontSize="20" HorizontalAlignment="Left" Margin="27,166,0,0" VerticalAlignment="Top" Height="44" Width="280"/>
+        <TextBox Name="AnswerTBX" FontSize="20" HorizontalAlignment="Left" Height="57" Margin="27,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="734"/>
+        <Button Name="AddBTN" FontSize="20" Content="Update" HorizontalAlignment="Left" Margin="276,354,0,0" VerticalAlignment="Top" Width="270" Height="43" Click="UpdateBTN_Click"/>
+        <ComboBox Name="DifficultCMB" HorizontalAlignment="Left" Margin="276,284,0,0" VerticalAlignment="Top" Width="281" Height="44">
+            <ComboBoxItem>BEGINNER</ComboBoxItem>
+            <ComboBoxItem>EASY</ComboBoxItem>
+            <ComboBoxItem>MEDIUM</ComboBoxItem>
+            <ComboBoxItem>HARD</ComboBoxItem>
+            <ComboBoxItem>ADVANCED</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>
